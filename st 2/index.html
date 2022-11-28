@@ -1,31 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Style css -->
+    <!-- My css-->
     <link rel="stylesheet" href="style.css" />
 
     <!-- Logo title -->
     <link rel="icon" type="image/x-icon" href="Asset/Untitled-removebg-preview.png" />
 
-    <title>Spesial Team</title>
+   <!-- Bootstrap my css -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/87de4b1b77.js" crossorigin="anonymous"></script>
+   
+    <title>Special Team</title>
   </head>
-  <body>
+  <body >
     <!-- Navbar -->
-    <div class="nav">
-      <ul>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#our service">Our Service</a></li>
-        <li><a href="#about">About</a></li>
-        <button class="btn" type="button" onclick="alert('Contact Us')">Click Me!</button>
-      </ul>
-      <div class="navbar-brand">
-        <img src="asset/Untitled-removebg-preview.png" alt="" width="40%" />
+
+    <nav class="navbar navbar-expand-lg navbar-dark  shadow fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#">
+            <img src="Asset/Untitled-removebg-preview.png" alt="Spesial Team" width="35" class="d-inline-block align-text-top me-3" />
+           
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#projet" class="nav-link">Project</a>
+            </li>
+            
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#our service">Our Service</a>
+            </li>
+           
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#About" class="nav-link">About</a>
+            </li>
+          </ul>
+          <div class="button-primary">     
+            <button type="masuk" class="button-secondary btn-primary">Contact Us</button>
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
+
     <!-- Akhir Navbar -->
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+      <div class="container">
+        <div
+          class="row d-flex align-items-center justify-content-between pt-lg-5 mx-4 mx-sm-0"
+        >
+          <div class="col-lg-6 col-md-12">
+            <h1 class="text-white">
+              WEB <span class="text-blue">DESIGN </span>&
+              <span class="text-blue">DEVELOPMENT</span>
+            </h1>
+            <a class="btn-seemore fw-light btn btn-secondary" href="#projects"
+            >SEE MORE <i class="text-bg-secondary fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <img src="asset/komputer.png" alt="programming" />
+          </div>
+          <div class="container-scrolling d-lg-none">
+            <div
+              class="scrolling col-12 d-lg-none d-flex justify-content-center h-100"
+            >
+              <div class="line-scrolling">
+                <img src="assets/img/line-scrolling.svg" alt="" />
+              </div>
+              <img
+                class="hand-scrolling"
+                src="assets/img/scrolling.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+    <!-- Akhir Hero Section -->
+
+    <!-- Our Service -->
+
+    <div class="our-services">
+      <h3 class="text-white">
+        OUR<span class="text-blue"> SERVICES</span>
+      </h3>
+      <div class="text-white"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corrupti ipsa, omnis quo facere obcaecati quasi. Ullam quam voluptatibus hic nam aliquid beatae expedita neque similique sed facilis non molestias rerum accusamus voluptas, laborum corporis praesentium deleniti enim sapiente eius, nostrum facere unde. Provident facere qui corporis animi velit officiis!</p>
+      </div>     
+    </div>
+
+    <!-- Akhir Our Service -->
+
+    <!-- Project -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="..." width="1px">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div> 
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="..." width="1px">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Asset/Untitled.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div> 
+      
+      <!-- Akhir Project-->>
+
+      <!-- Team-->
+
+      <div class="our-team">
+        <h3 class="text-white">
+          OUR<span class="text-blue"> Team</span>
+        </h3>   
+      </div>
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
